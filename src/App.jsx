@@ -6,6 +6,7 @@ const textMessages = ['Welcome to React 😍', 'Learn React 🤗  ', 'Invest You
  * @returns Form Submitions
  */
 function App() {
+  // ? set the state for
   const [count, setCount] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
