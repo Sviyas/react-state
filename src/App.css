@@ -10,7 +10,9 @@ body {
 div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .steps {
@@ -20,7 +22,7 @@ div {
   background-color: #e7e7e76e;
   justify-content: space-around;
   align-items: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   border-radius: 20px;
 }
 
@@ -70,5 +72,9 @@ button:hover {
 .active {
   background-color: darkblue !important;
   color: white !important;
+}
+
+.close {
+  margin-left: 25pc;
 }
 
