@@ -10,13 +10,13 @@ function App() {
   const [count, setCount] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
-  const handlPrevious = () => {
-    if (count > 1) setCount(count - 1);
-  };
+  function handlPrevious() {
+    if (count > 1) setCount(c => c - 1);
+  }
 
-  const handleNext = () => {
-    if (count < 3) setCount(count + 1);
-  };
+  function handleNext() {
+    if (count < 3) setCount(c => c + 1);
+  }
 
   return (
     <>
